@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menuitem{
+    @apply text-xs border-transparent transition-all duration-300 md:border-b-2  pb-[1px] hover:scroll-smooth cursor-pointer hover:border-dashed border hover:border-white p-4 md:p-0;
+}
+.footeritem{
+    @apply text-xs text-[#686161] cursor-pointer hover:underline;
+}
